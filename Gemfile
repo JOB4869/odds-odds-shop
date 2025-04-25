@@ -68,4 +68,4 @@ end
 
 gem "devise", "~> 4.9"
 
-gem "rqrcode", "~> 2.2"
+gem "rqrcode", "~> 3.0"
