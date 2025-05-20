@@ -81,8 +81,8 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    database: marketplace_production
-    username: marketplace
+    database: odds_ecom_db_ss40
+    username: odds_ecom_db_ss40_user
     password: <%= ENV["MARKETPLACE_DATABASE_PASSWORD"] %>
   cache:
     <<: *primary_production
